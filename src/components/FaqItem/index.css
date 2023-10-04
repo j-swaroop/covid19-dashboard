@@ -1,0 +1,30 @@
+.faq-item{
+    margin-top: 25px;
+}
+.question{
+    color: var(--light-blue-gray-400, #94A3B8);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.answer{
+    color: #007BFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+@media (min-width: 576px){
+    .question{
+        font-size: 16px;
+    }
+    .answer{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,56 @@
+.about-container{
+    min-height: 90vh;
+    background-color: #161625;
+     padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.about-responsive-container{
+    width: 90%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+     padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.about-heading{
+    color: var(--light-blue-gray-50, #F8FAFC);
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.about-text{
+    color: var(--light-blue-gray-400, #94A3B8);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.vaccines-text{
+    color: var(--light-blue-gray-200, #E2E8F0);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+@media (max-width: 576px){
+    .about-heading{
+        font-size: 26px;
+    }
+    .about-text{
+        font-size: 16px;
+    }
+    .vaccines-text{
+        font-size: 18px;
+    }
+}
+.faqs-unordered-list{
+    list-style-type: none;
+    padding-left: 0;
+}

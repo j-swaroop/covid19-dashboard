@@ -1,0 +1,152 @@
+.state-specific-details-route {
+  background-color: #161625;
+  min-height: 90vh;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+.responsive-container-state{
+  width: 90%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.banner-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.state-name-card {
+  background-color: rgba(2, 132, 199, 0.16);
+  border-radius: 10px;
+  color: #0ea5e9;
+  line-height: 2;
+  font-weight: 600;
+  font-size: 20px;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  flex-wrap: wrap;
+  font-family: "Roboto";
+}
+@media screen and (max-width: 768px) {
+  .state-name-card {
+    line-height: 1.3;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 150px;
+    padding: 10px;
+  }
+}
+.cases-types {
+  margin: 0px;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+
+.tested-count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #94a3b8;
+  font-family: "Roboto";
+}
+
+
+.tested-head {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+
+.test-count {
+  line-height: 1;
+  margin: 0px;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+@media screen and (max-width: 768px) {
+  .test-count {
+    font-size: 14px;
+  }
+}
+
+.districts-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin: 0px;
+  color: #94a3b8;
+}
+
+@media screen and (max-width: 768px) {
+  .districts-heading {
+    font-size: 26px;
+  }
+}
+
+.confirmed-head {
+  color: #ff073a;
+  font-family: "Roboto";
+}
+
+.active-head {
+  color: #007bff;
+  font-family: "Roboto";
+}
+
+.recovered-head {
+  color: #28a745;
+  font-family: "Roboto";
+}
+
+.deceased-head {
+  color: #6c757d;
+  font-family: "Roboto";
+}
+.districts-data-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+ 
+  align-items: center;
+  font-family: "Roboto";
+}
+
+.last-update {
+  color: #94a3b8;
+  font-size: 12px;
+  font-family: "Roboto";
+}
+
+@media screen and (max-width: 768px) {
+  .last-update {
+    font-size: 10px;
+
+    margin: 0px;
+  }
+}
+.covid-loader-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.district{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+@media (max-width: 576px){
+  .district{
+    
+    align-items: center;
+  }
+}

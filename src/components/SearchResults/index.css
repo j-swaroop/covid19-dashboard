@@ -1,0 +1,45 @@
+.search-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #64748B;
+    text-decoration: none;
+}
+
+.search:hover{
+    padding-left: 8px;
+    flex-shrink: 0;
+    background: #1F1F30;
+}
+
+.state-name{
+    color: #64748B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.state-code-container{
+    background-color: var(--transparent-info-16, rgba(28, 212, 212, 0.16));
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    height: 30px;
+    padding: 5px;
+    
+}
+.state-code{
+    color: #c7cc6f;
+    font-family: "Roboto";
+    margin-right: 6px;
+}
+.link-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #64748B;
+    text-decoration: none;
+}

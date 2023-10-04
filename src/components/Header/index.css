@@ -1,0 +1,67 @@
+.nav-bg-container{
+    background-color: #1E1E30;;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.covid19-heading{
+    color: #F8FAFC;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Bree Serif';
+}
+span{
+    color: #3B82F6;
+    font-weight: 500;
+}
+.nav-items-desktop{
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.link-item-header{
+    color: #F8FAFC;
+    font-size: "Roboto";
+    font-family: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.link-item-header-active{
+    text-decoration: none;
+    color: #94A3B8;
+    font-size: "Roboto";
+    font-family: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.link-item-heading{
+    text-decoration: none;
+}
+
+@media (max-width: 576px){
+    .link-item-header-active{
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .link-item-header{
+        font-size: 15px;
+    }
+    .link-item-heading{
+        font-size: 18px;
+    }
+}
+
